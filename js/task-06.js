@@ -1,6 +1,5 @@
+
 const input = document.querySelector('#validation-input')
-
-
 
 
 const handleInput = (event) => {

@@ -1,8 +1,3 @@
-t
-
-
-
-
 const value = document.querySelector("#value")
 let counterValue = 0;
 
