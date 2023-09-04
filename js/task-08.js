@@ -11,8 +11,8 @@ const handleSubmit = (event) => {
         alert('Please fill in all the fields!')
     }
     const values = {
-        email : `${emailValue}`,
-        password : `${passwordValue}`,
+        email : emailValue,
+        password : passwordValue,
     }
 
     console.log(values);
