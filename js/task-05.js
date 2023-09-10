@@ -10,8 +10,10 @@ const handleInput = (event) => {
         output.textContent = "Anonymous"
     }
     else {
-        output.textContent = value
+        output.textContent = value;
+        console.log(value)
     }
 }
 
 input.addEventListener("input", handleInput)
+

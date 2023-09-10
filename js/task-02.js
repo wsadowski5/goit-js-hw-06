@@ -24,12 +24,12 @@ console.log('-------------------------------------------------')
 
 
 const ingredientsArr = ingredients.map ( ingredient => {
-  console.log(ingredient)
+  
   const listElement = document.createElement('li');
   listElement.textContent = ingredient;
   listElement.classList.add('item');
   return listElement;
-
+  
 }
 )
 

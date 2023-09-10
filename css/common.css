@@ -39,3 +39,9 @@ button {
 .gallery__item{
 max-height: 200px;
 }
+
+.test {
+  height: 50px;
+  width: 100px;
+  background-color: red ;
+}
