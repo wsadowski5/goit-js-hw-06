@@ -44,8 +44,7 @@ createBtn.addEventListener('click', handleInput)
 
 const boxes = document.querySelector('#boxes')
 const destroyBoxes = () => {
-  boxes.remove()
-  destroyBtn.removeEventListener('click', destroyBoxes)
+  boxes.innerHTML = '';
 }
 
 destroyBtn.addEventListener('click', destroyBoxes)
